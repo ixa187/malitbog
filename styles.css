@@ -86,7 +86,7 @@ textarea {
 
 /* === HERO SECTION STYLES === */
 .hero {
-  background-image: url("img/malitbog-wow.jpg");
+  background-image: url("img/plaza.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -98,7 +98,7 @@ textarea {
 }
 
 .hero-overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   inset: 0;
   display: flex;
@@ -240,7 +240,7 @@ textarea {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Staggered animation delays for scroll-triggered cards */
+/* animation delay */
 .thing-card.scroll-animate:nth-child(1) {
   transition-delay: 0.1s;
 }
